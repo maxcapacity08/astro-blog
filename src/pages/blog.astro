@@ -36,14 +36,18 @@ import Card from '../components/Card.astro';
 
 		<a href="/">Home</a>
 		<a href="/about/">About</a>
-		<a href="/blog">Blog</a>
+        <a href="/blog">Blog</a>
 
-    <h1>My astro site</h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
+        <h1>My astro learning Blog</h1>
+        <p>This is where i will post about my journey learnig Astro</p>
+        <ul>
+            <card 
+            href="https://youtube.com"  
+            
+            
+            />
+        </ul>
+		<!-- <ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
 				title="Documentation"
@@ -64,19 +68,19 @@ import Card from '../components/Card.astro';
 				title="Community"
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
-		</ul>
+		</ul> -->
 	</main>
 </Layout>
 
 <style>
 	main {
 		margin: auto;
-		padding: 1rem;
+		padding: .5rem;
 		width: 800px;
 		max-width: calc(100% - 2rem);
 		color: white;
 		font-size: 20px;
-		line-height: 1.6;
+		line-height: 1.4;
 	}
 	.astro-a {
 		position: absolute;
